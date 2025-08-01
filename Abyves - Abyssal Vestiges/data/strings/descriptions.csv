@@ -1,0 +1,31 @@
+id,type,text1,text2,text3,text4,text5,notes
+corruptedsleeperdesc,CUSTOM,"This is one of the massive vessels of legend which transported millions of humans from the core systems of the Domain out into the great frontiers. This rogue Domain-era cryosleeper is seemingly stranded in the Orion-Perseus Abyss. Its hull shows comb-like surfaces with openings for ships. The whole structure looks more suited as a staging ground for ship building and trading, rather than for transporting people.",,"After passing the comb-like structures and being able to behold this cryosleeper from within, it’s clear this hull has been modified and corrupted by new inhabitants. While still having docking ports compatible with your ship, the main atrium-like space is covered with balconies. Swarms of hand-sized metallic objects are lapping against the walls as if cleaning the surfaces. These flocking machines are the only sign of occupation.",,,
+,,,,,,,
+corrupted_sleeper_illu,GALLERY,Reprocessor Node,,"A cryosleeper-turned-station, this installation has comb-like surfaces with openings for ships.",,,
+,,,,,,,
+,,,,,,,
+EMP-Fragment,SHIP,"A large drone, barely more than a piece of scrap with hidden engines inside. It has no weapons but an EMP Emitter. Thus, its primary purpose is defending its mothership.",,,,,
+Reconnaissance_Unit,SHIP,"Closest match found to archive entry for ""Akrasia""-class unmanned exploration frigate, 34.89% confidence. Querying database... ""Small and nimble, designed purely for operating in harmful conditions, the Akrasia saw use only- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
+// datastream resetting...
+
+-under public scrutiny, specifically for the design choice of weapon mounts on an uncrewed- FATAL ACCESS ERROR //
+
+This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,,
+Facilitation_Unit,SHIP,"Closest match found to archive entry for ""Phronesis""-class supply ship, 55.08% confidence. Querying database... ""A prominent hull among long distance convoys, equipped with minimal weaponry to ensure the safety of materi- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
+// datastream resetting...
+
+-flaw was mostly ignored by its users or outright fixed ad hoc- FATAL ACCESS ERROR //
+
+This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,,
+Fortress_Unit,SHIP,"Closest match found to archive entry for ""Nomos""-class hull, 47.32% confidence. Querying database... ""First designed as mobile fortification to draw the fire of heavy weaponry, the Nomos was quickly refurbished due to a significant lack of speed. It saw a revival- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
+// datastream resetting...
+
+-ast overhaul, when the initial armor modules proved to be lackluster for offensive engage- FATAL ACCESS ERROR //
+
+This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,,
+Factory_Unit,SHIP,"Closest match found to archive entry for "" Eudaimonia ""-class frontier assembly hull, 51.82% confidence. Querying database... ""Although, the deployment of smaller vessels to support a large fleet proved to be superior during the 'Emerald Age' exodus over the use of- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
+// datastream resetting...
+
+-ed for storage and repair of damaged hull parts. In addition to this, the success of the spinal-mount microwave emitter used by the Fulgurite has justified a similar installment on- FATAL ACCESS ERROR //
+
+This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,,

@@ -1,0 +1,2 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+swarm_launch_center,Swarm Launch Center,,,10,,,,"unraidable, no_saturation_bombardment, farming, mining, structure",,graphics/abyves/icons/industry/swarm_launch_center.png,Ahnwjeia.abyves.campaign.econ.swarm_launch_center,This inconspicuous structure is responsible for a grand scale production and logistics task. It holds fragment swarms in storage and applies them to provide any and all resources needed.,100.5,

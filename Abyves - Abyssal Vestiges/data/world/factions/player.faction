@@ -1,0 +1,14 @@
+{
+	"portraits":{
+		"standard_male":[
+			"graphics/abyves/portraits/Abyves01.png",
+		],
+		"standard_female":[
+#			"graphics/abyves/portraits/Ahnwjeia.png",
+			"graphics/abyves/portraits/Abyves02.png",
+		],
+	},
+}
+
+
+

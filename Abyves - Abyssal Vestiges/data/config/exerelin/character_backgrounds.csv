@@ -1,0 +1,5 @@
+id,name,shortDescription,longDescription,order,iconPath,plugin
+abyvesAug,Corrupted Augmentation,,"You have been abroad a corrupted sleeper and were altered during your long odyssey. Your body was extensively modified to communicate with machine surfaces. The ability to constantly communicate with appropriate equipment has you unfocused and some of your mind is still in hybernation, hampering your intuition.
+
+The augmentation comes with the ability of Gunnery Implants and the knowledge about Automated Ships.
+The amount of officers you can handle at any time is halved compared to other people.",5.5,graphics/abyves/icons/backgrounds/abyvesAug.png,Ahnwjeia.abyves.campaign.backgrounds.abyvesAug

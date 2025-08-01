@@ -1,0 +1,44 @@
+{
+  "variantId": "Factory_Unit_Type831",
+  "hullId": "Factory_Unit",
+  "displayName": "Type 831",
+  "goalVariant": false,
+  "fluxCapacitors": 4,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "AbyvesShielding",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavy_mass_driver",
+        "WS0004": "heavy_mass_driver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "voltaic_discharge",
+        "WS0006": "voltaic_discharge"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0001": "Right_Side_standard"
+    },
+    {
+      "WS0002": "Left_Side_standard"
+    }
+  ],
+  "wings": [
+    "EMP-Fragment",
+    "EMP-Fragment"
+  ]
+}

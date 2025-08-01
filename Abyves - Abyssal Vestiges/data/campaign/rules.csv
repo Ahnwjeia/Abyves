@@ -1,0 +1,49 @@
+id,trigger,conditions,script,text,options,notes
+bar_descABYVES,BarPrintDesc,$faction.id == threat,ShowImageVisual abyves_bar,"You are standing on a balcony.
+
+This location is anything but a bar. The illumination is dim, the air cold, reeking of metal. There is a collection of rough tables and chairs on the balcony, overseeing the huge atrium-like space. If not for the swarms of drones passing by and causing drafts, this spot would be perfect to wind down and enjoy the solitude and silence.
+Some tables are nestled beneath screens hanging from the wall where the balcony sprouts from. They look vaguely like workstations and on one there is even a TriPad being hooked up with a screen. There is a small fridge between the screens on the wall, next to the balcony railing almost looking like a counter.
+
+Standing here and gazing at some distant, barely illuminated balconies, humanoid shapes can be seen. They look heavily modified with metal augments and some barely sport a head. The longer you look at them, the more they seem to move in unison with each other - just like the swarms above you.
+
+One flies by and you turn around to look back at the bar-like establishment.",,
+,,,,,,
+,,,,,,
+abyvesIntro1,DialogOptionSelected,"$option == marketVisitBar
+$market.id == corruptedsleepermarket
+!$global.abyvesIntro_completed
+!$global.abyvesIntro_started",,"You take a shuttle to set foot on the station interior.
+
+Traversing a sheer endless network of balconies looking for a bar-like establishment on this station, you cross paths with a heavily augmented humanoid. The woman stares you down with glowing eyes and ponders for a moment before starting a conversation.",abyvesintro2:Continue,
+abyvesIntro2,DialogOptionSelected,$option == abyvesintro2,"BeginConversation abyvescontact1
+ShowPersonVisual abyvescontact1
+SetTextHighlights ""Unit Ananke"" ""Galatia Academy"" ""Galatia""","""Unit funcionate?,"" she says with a doubtful expression.
+
+""Our designation is Unit Ananke. Stationary branch requires assistance. Data of intrusion into Abyss by entity Galatia Academy from system Galatia. Novelcent intelligence is required. Sequest pronate.""",abyvesintro3:Continue,
+abyvesIntro3,DialogOptionSelected,$option == abyvesintro3,"SetTextHighlights ""Galatia Academy"" ""Pontus"" ""possession""","""Dictorate final. Unit $player.name is needed to place obsurveillance module in or on the Galatia Academy near Pontus. Compensation of capacity used is considered full possessionship of vessel owned by defective unit.""","abyvesintroaccept:Accept
+abyvesintrodecline:Decline",
+abyvesaccept,DialogOptionSelected,$option == abyvesintroaccept,"BeginMission abyvesIntroQuest
+$global.abyvesIntro_started = true
+EndConversation NO_CONTINUE","The cyborg in front of you smirks faintly. ""Curate direct. Unit accepted the task. Required materisource is sent to unit $shipOrFleet. Spysat will deploy independously when docking with station.""",abyvesintrogo:Go to the bar,
+abyvesdecline,DialogOptionSelected,$option == abyvesintrodecline,"$global.abyvesIntro_completed = true
+Call $global.abyvesIntro_ref updateStage
+EndConversation NO_CONTINUE","""Denyance of task. Unit unweave. Detract task. Different unit will be found."" Without any further words, or blinking at that matter, Unit Ananke turns and walks away, leaving you on the cold balcony.",abyvesintrogo:Go to the bar,
+abyvesgo,DialogOptionSelected,$option == abyvesintrogo,"FireBest BarPrintDesc
+BarCMD showOptions",,,
+,,,,,,
+abyvesIntroDone,OpenInteractionDialog,"$market.id == ga_market
+$global.abyvesIntro_started == true score:2000
+!$global.abyvesIntro_completed","$global.abyvesIntro_completed = true
+Call $global.abyvesIntro_ref updateStage
+AdjustRepPerson abyvescontact1 COOPERATIVE 25","Upon docking with the station your logistics officer comes up to you.
+
+""Excuse me, $playerSirOrMadam, the device we got from the Abyss unfolded its sides, grew legs and walked out an airlock before we could stop it. It disappeared off of our sensors. Whatever its purpose truly was, we will not see its success.""",abyvesintroend:Continue,
+abyvesIntroend,DialogOptionSelected,$option ==  abyvesintroend,"
+",You nod and move to your shuttle bay to enter the Galatia Academy.,abyvestoGA:Continue,
+abyvestoGA,DialogOptionSelected,$option == abyvestoGA,"ShowDefaultVisual
+FireBest GAAgentGreeting
+FireAll PopulateOptions","The stark white hull of Galatia Academy Station crawls past in a slow, magisterial rotation; the ivory torus looms before you.
+
+Your request to the docking queue is approved. Your comms officer helpfully mutes the chirpy, automated vid-feed presenting a bowdlerized history of the Galatia Academy and its role in providing education and research to the Persean Sector while remaining above political influence.
+
+The landing promenade is filled with modest civilian transports, a few high-end personal craft, and, at the far end, a row of freighters offloading supplies. A junior academy agent greets you in a landing lounge with promotional paraphernalia in hand.",,

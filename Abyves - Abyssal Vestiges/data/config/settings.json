@@ -1,0 +1,19 @@
+{
+	"graphics":{
+		"blueprint_packages":{
+			"vestige_package":"graphics/abyves/icons/cargo/abyvesbp.png",
+		},
+		"stations":{
+			"corrupted_sleeper":"graphics/abyves/stations/corrupted_sleeper.png",
+		},
+		"illustrations":{
+			"corrupted_sleeper_illu":"graphics/abyves/illustrations/corrupted_sleeper_illu.jpg",
+			"abyves_bar":"graphics/abyves/illustrations/abyves_bar.jpg",
+		},
+		"characters":{
+			"AbyvesContact1":"graphics/abyves/portraits/AbyvesContact1.png",
+			"AbyvesContact2":"graphics/abyves/portraits/AbyvesContact2.png",
+			"AbyvesContact3":"graphics/abyves/portraits/AbyvesContact3.png",
+		},
+	},
+}

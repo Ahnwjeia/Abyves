@@ -1,0 +1,12 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,logistics n/a reason,codex variant id,rarity,breakProb,minPieces,maxPieces,travel drive,number
+EMP-Fragment,EMP-Fragment,Drone,Threat,emp,,800,300,150,,50,,,160,250,250,120,240,5,NONE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,1,,9053
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Reconnaissance_Unit,Reconnaissance Unit,Threat,displacer_degraded,9,4500,800,3000,,300,50,,150,200,180,90,60,300,FRONT,,150,0.4,1.2,,,0,0,25,20,0.25,80,10,10000,10,10,480,0.25,5,5,,,,,,,UNBOARDABLE,"abyvesbp, auto_rec, codex_unlockable, limited_tooltip_if_locked",,,,0.5,2,2,,9053.1
+,Facilitation_Unit,Facilitation Unit,Unknown,microburn,12,6000,1000,6000,,500,100,,90,90,80,40,60,500,FRONT,,150,0.4,1.2,,,5,20,400,100,0.25,400,10,60000,10,10,540,0.25,10,10,,,,,,,,"abyvesbp, codex_unlockable, limited_tooltip_if_locked",,,,0.5,2,3,,9053.2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Fortress_Unit,Fortress Unit,Unknown,microburn,18,18000,1700,14000,,700,130,,70,70,60,20,35,2300,FRONT,,150,0.4,1.2,,,30,100,150,50,0.25,200,10,130000,10,10,600,0.25,20,20,,,,,,,SHIP_WITH_MODULES,"abyvesbp, codex_unlockable, limited_tooltip_if_locked",,,,0.5,2,3,,9054.1
+,Front_Side,,,ammofeed,0,6000,1700,6000,,700,50,,50,50,50,50,50,300,NONE,,,,,,,,,,,,,,,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,0.5,2,2,,9054.2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Factory_Unit,Factory Unit,Unknown,displacer_degraded,25,16000,1600,8000,,500,100,2,70,60,60,20,30,2000,OMNI,,90,0.4,1.2,,,30,150,800,200,0.25,800,9,190000,10,10,600,0.25,5,5,,,,,,,SHIP_WITH_MODULES,"abyvesbp, codex_unlockable, limited_tooltip_if_locked",,,,0.5,2,3,,9055.1
+,Left_Side,,,,0,10000,1600,4000,,500,30,,50,50,50,50,50,300,NONE,,,,,,,,,,,,,,,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,0.5,2,2,,9055.2
+,Right_Side,,,,0,10000,1600,4000,,500,30,,50,50,50,50,50,300,NONE,,,,,,,,,,,,,,,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,0.5,2,2,,9056.3

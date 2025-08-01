@@ -1,0 +1,15 @@
+{
+	"knownShips":{
+		"hulls":[
+		"EMP-Fragment",
+		"Reconnaissance_Unit",
+		"Facilitation_Unit",
+		"Fortress_Unit",
+		],
+	},
+	"knownHullMods":{
+		"hullMods":[
+		"AbyvesShielding",
+		],
+	},
+},

@@ -1,0 +1,24 @@
+{
+  "hullName": "EMP-Fragment",
+  "hullId": "EMP-Fragment",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/abyves/ships/Fighters/EMP-Fragment.png",
+  "style": "THREAT",
+  "height": 33,
+  "width": 32,
+  "center": [16, 16.5],
+  "collisionRadius": 21.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 21.5,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -16, 10.5,
+    -2, 15.5,
+    16, 13.5,
+    16, -13.5,
+    -2, -15.5,
+    -16, -10.5
+  ]
+}

@@ -1,0 +1,12 @@
+{
+	"starts":[
+		{
+			"id":"vestige",
+			"name":"Vestige",
+			"difficulty":"Hard",
+			"desc":"You are a vestige, a survivor of a corrupted cryosleeper stranded in the Orion-Perseus Abyss.",
+			"className":"Ahnwjeia.abyves.campaign.customstart.vestige",
+			"randomSector":-1,
+		},
+	],
+}

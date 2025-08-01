@@ -1,0 +1,14 @@
+{
+  "variantId": "EMP-Fragment_Drone",
+  "hullId": "EMP-Fragment",
+  "displayName": "Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,316 @@
+{
+  "hullName": "",
+  "hullId": "Fortress_Unit",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/abyves/ships/Fortress Unit/Fortress_Unit.png",
+  "style": "THREAT",
+  "height": 218,
+  "width": 276,
+  "center": [138, 109],
+  "collisionRadius": 180,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 180,
+  "viewOffset": 0,
+  "builtInMods": [
+    "AbyvesHull"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [52, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-16, -64]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-16, 64]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -90,
+      "locations": [42, -113]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 90,
+      "locations": [42, 113]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 0,
+      "locations": [73.5, -102]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -0,
+      "locations": [73.5, 102]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 0,
+      "locations": [76.5, -58]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -0,
+      "locations": [76.5, 58]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [43.5, -68]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -0,
+      "locations": [43.5, 68]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [73, -79]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [73, 79]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-104.5, -19.5],
+      "length": 30,
+      "width": 10,
+      "angle": 179,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-104.5, 19.5],
+      "length": 30,
+      "width": 10,
+      "angle": -179,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-101.5, -34.5],
+      "length": 30,
+      "width": 10,
+      "angle": -158,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-101.5, 34.5],
+      "length": 30,
+      "width": 10,
+      "angle": 158,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-107.5, -73],
+      "length": 30,
+      "width": 10,
+      "angle": 172,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-107.5, 73],
+      "length": 30,
+      "width": 10,
+      "angle": -172,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-105, -85.5],
+      "length": 30,
+      "width": 10,
+      "angle": -168,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-105, 85.5],
+      "length": 30,
+      "width": 10,
+      "angle": 168,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-96, -95],
+      "length": 46.152851,
+      "width": 24.200363,
+      "angle": -156.5,
+      "contrailSize": 24.200363,
+      "style": "THREAT"
+    },
+    {
+      "location": [-96, 95],
+      "length": 46.152851,
+      "width": 24.200363,
+      "angle": 156.5,
+      "contrailSize": 24.200363,
+      "style": "THREAT"
+    },
+    {
+      "location": [-83, -106.5],
+      "length": 30,
+      "width": 10,
+      "angle": -132.5,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-83, 106.5],
+      "length": 30,
+      "width": 10,
+      "angle": 132.5,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-77.5, -110.5],
+      "length": 30,
+      "width": 10,
+      "angle": -114,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-77.5, 110.5],
+      "length": 30,
+      "width": 10,
+      "angle": 114,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-103, -28],
+      "length": 36.921001,
+      "width": 14.154806,
+      "angle": -177,
+      "contrailSize": 14.154806,
+      "style": "THREAT"
+    },
+    {
+      "location": [-103, 28],
+      "length": 36.921001,
+      "width": 14.154806,
+      "angle": 177,
+      "contrailSize": 14.154806,
+      "style": "THREAT"
+    },
+    {
+      "location": [-108, -80],
+      "length": 38.142559,
+      "width": 15.671028,
+      "angle": -179,
+      "contrailSize": 15.671028,
+      "style": "THREAT"
+    },
+    {
+      "location": [-108, 80],
+      "length": 38.142559,
+      "width": 15.671028,
+      "angle": 179,
+      "contrailSize": 15.671028,
+      "style": "THREAT"
+    },
+    {
+      "location": [-90.5, -104.5],
+      "length": 44.775375,
+      "width": 13.215996,
+      "angle": -142.5,
+      "contrailSize": 13.215996,
+      "style": "THREAT"
+    },
+    {
+      "location": [-90.5, 104.5],
+      "length": 44.775375,
+      "width": 13.215996,
+      "angle": 142.5,
+      "contrailSize": 13.215996,
+      "style": "THREAT"
+    }
+  ],
+  "bounds": [
+    -105.5, 19.5,
+    -109.5, 75,
+    -93, 105.5,
+    -36.5, 137,
+    63, 135,
+    104, 103.5,
+    107.5, 59,
+    71.5, 38.5,
+    71.5, -38.5,
+    107.5, -59,
+    104, -103.5,
+    63, -135,
+    -36.5, -137,
+    -93, -105.5,
+    -109.5, -75,
+    -105.5, -19.5
+  ]
+}

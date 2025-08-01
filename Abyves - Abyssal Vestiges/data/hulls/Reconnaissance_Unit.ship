@@ -1,0 +1,108 @@
+{
+  "hullName": "",
+  "hullId": "Reconnaissance_Unit",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/abyves/ships/Reconnaissance Unit/Reconnaissance_Unit.png",
+  "style": "THREAT",
+  "height": 98,
+  "width": 92,
+  "center": [46, 49],
+  "collisionRadius": 75,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 75,
+  "viewOffset": 0,
+  "builtInMods": [
+    "AbyvesHull",
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [24, -18]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [11.5, 9]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-12, -9]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-45.5, -16],
+      "length": 30,
+      "width": 10,
+      "angle": -177,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-45, -26.5],
+      "length": 30,
+      "width": 10,
+      "angle": -174,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-42.5, -33],
+      "length": 30,
+      "width": 10,
+      "angle": -162.5,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-48, -0.5],
+      "length": 30,
+      "width": 10,
+      "angle": -179,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-48, 9.5],
+      "length": 32.57457,
+      "width": 16.142799,
+      "angle": 169.5,
+      "contrailSize": 16.142799,
+      "style": "THREAT"
+    },
+    {
+      "location": [-46.5, 23],
+      "length": 25.073,
+      "width": 9.294012,
+      "angle": 160,
+      "contrailSize": 9.294012,
+      "style": "THREAT"
+    }
+  ],
+  "bounds": [
+    46, -25.5,
+    0.5, -46.5,
+    -29.5, -44.5,
+    -44.5, -34,
+    -50, 13,
+    -35.5, 42.5,
+    -2.5, 45.5,
+    26, 31,
+    50, -4
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "hullName": "Left Side",
+  "hullId": "Left_Side",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/abyves/ships/Factory Unit/Left_Side.png",
+  "style": "THREAT",
+  "height": 122,
+  "width": 117,
+  "center": [95, 68],
+  "collisionRadius": 97,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 97,
+  "viewOffset": 0,
+  "builtInMods": [
+    "AbyvesHull",
+    "always_detaches",
+    "reduced_explosion",
+    "advancedcore"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [38, 69]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [23.5, 32]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 135,
+      "locations": [-35, 37]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    54, 13,
+    -29.5, -22,
+    -48, -15,
+    -68, 12,
+    -68, 34,
+    -15, 83,
+    8, 95,
+    31, 92,
+    42, 80,
+    48, 57
+  ]
+}

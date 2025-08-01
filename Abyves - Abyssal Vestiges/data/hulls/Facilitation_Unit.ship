@@ -1,0 +1,203 @@
+{
+  "hullName": "",
+  "hullId": "Facilitation_Unit",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/abyves/ships/Facilitation Unit/Facilitation_Unit.png",
+  "style": "THREAT",
+  "height": 129,
+  "width": 204,
+  "center": [102, 64.5],
+  "collisionRadius": 119.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 119.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "AbyvesHull"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -45,
+      "locations": [23, -52]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 45,
+      "locations": [23, 52]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 209,
+      "angle": -90,
+      "locations": [34.5, -87]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 209,
+      "angle": 90,
+      "locations": [34.5, 87]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [50.5, -38]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [50.5, 38]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [41.5, -14]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [41.5, 14]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [58, -56]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [58, 56]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-57, -13],
+      "length": 32.58548,
+      "width": 10.475972,
+      "angle": 175,
+      "contrailSize": 10.475972,
+      "style": "THREAT"
+    },
+    {
+      "location": [-57, 13],
+      "length": 32.58548,
+      "width": 10.475972,
+      "angle": -175,
+      "contrailSize": 10.475972,
+      "style": "THREAT"
+    },
+    {
+      "location": [-63.5, -29.5],
+      "length": 32.5,
+      "width": 16,
+      "angle": -173,
+      "contrailSize": 16,
+      "style": "THREAT"
+    },
+    {
+      "location": [-63.5, 29.5],
+      "length": 32.5,
+      "width": 16,
+      "angle": 173,
+      "contrailSize": 16,
+      "style": "THREAT"
+    },
+    {
+      "location": [-56.5, -39],
+      "length": 43.007313,
+      "width": 14.542494,
+      "angle": -164.5,
+      "contrailSize": 14.542494,
+      "style": "THREAT"
+    },
+    {
+      "location": [-56.5, 39],
+      "length": 43.007313,
+      "width": 14.542494,
+      "angle": 164.5,
+      "contrailSize": 14.542494,
+      "style": "THREAT"
+    },
+    {
+      "location": [-48, -46],
+      "length": 30,
+      "width": 10,
+      "angle": -139.5,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-48, 46],
+      "length": 30,
+      "width": 10,
+      "angle": 139.5,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-54.5, -45],
+      "length": 30,
+      "width": 10,
+      "angle": -158.5,
+      "contrailSize": 30,
+      "style": "THREAT"
+    },
+    {
+      "location": [-54.5, 45],
+      "length": 30,
+      "width": 10,
+      "angle": 158.5,
+      "contrailSize": 30,
+      "style": "THREAT"
+    }
+  ],
+  "bounds": [
+    -65, 34,
+    -36.5, 62.5,
+    -29.5, 100,
+    48.5, 102.5,
+    63.5, 62,
+    63.5, -62,
+    48.5, -102.5,
+    -29.5, -100,
+    -36.5, -62.5,
+    -65, -34
+  ]
+}

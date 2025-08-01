@@ -1,0 +1,26 @@
+{
+	"corrupted_sleeper":{
+		"defaultName":"Corrupted Sleeper", # used if name=null in addCustomEntity()
+		"nameInText":"corrupted sleeper",
+		"shortName":"corrupted sleeper",
+		"aOrAn":"a",
+		"isOrAre":"is",
+		"defaultRadius":96, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/abyves/stations/corrupted_sleeper.png",
+		"spriteWidth":108,
+		"spriteHeight":108,
+		"renderShadow":false,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+}

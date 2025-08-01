@@ -1,0 +1,8 @@
+name,id,tier,rarity,tech,manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+Threat Hull,AbyvesHull,,,,,"codex_require_related, threat",,,,TRUE,,0,0,0,0,Ahnwjeia.abyves.hullmods.AbyvesHull,,,,graphics/hullmods/the_threat.png
+Cosmic Shielding,AbyvesShielding,1,,,,"defensive, req_spaceport","Defenses, Logistics, Requires Dock",14000,,,,2,4,6,10,Ahnwjeia.abyves.hullmods.AbyvesShielding,"This hullmod was developed by independent parties travelling the Orion-Perseus Abyss and starless wastes. Meant to protect the crew and critical ship systems from harmful radiation and cosmic dust, this hullmod decreases the effect stellar phenomena have on combat readiness by %s; also has the same effect against storms in deep hyperspace.
+
+The ship also takes %s fewer crew casualties from hull damage sustained in combat.",Reduces effect of being in corona and reduces crew casualties.,Increases the crew casualty reduction to %s.,graphics/abyves/hullmods/AbyvesShielding.png
+Refacilitation Module,RefacilitationModule,,,,,,Logistics,,,,,0,0,0,0,Ahnwjeia.abyves.hullmods.RefacilitationModule,"The core of the ship is modified with a refacilitation module, allowing it to recycle supplies and materials of any kind. The process is not sophisticated enough to output supplies but it is enough to support other ships. It requires a small but regular intake of supplies to get the process started.
+
+Reduces the maintenance of the fleet by %s by using an upkeep of %s supplies.",Reduces the maintenance of the fleet.,,graphics/abyves/hullmods/RefacilitationModule.png

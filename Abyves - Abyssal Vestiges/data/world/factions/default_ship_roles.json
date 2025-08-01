@@ -1,0 +1,51 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"Reconnaissance_Unit_Type804":1,
+		"fallback":{"combatSmall":1},
+	},
+	"combatSmall":{
+		"Reconnaissance_Unit_Type804":1,
+		"fallback":{"combatMedium":1},
+	},
+	
+	"combatMedium":{
+		"fallback":{"combatSmall":1},
+	},
+	
+	"combatLarge":{
+		"Fortress_Unit_Type821":1,
+		"fallback":{"combatMedium":1},
+	},
+	
+	"combatCapital":{
+		"fallback":{"combatMedium":1},
+	},
+
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		"fallback":{"freighterSmall":1},
+	},
+	
+	"combatFreighterMedium":{
+		"Facilitation_Unit_Type810":1,
+		"fallback":{"combatFreighterSmall":1},
+	},
+	
+	"freighterSmall":{
+	},
+	
+	"freighterMedium":{
+		"fallback":{"freighterSmall":1},
+	},
+	"freighterLarge":{
+		"fallback":{"freighterMedium":1},
+		"fallback2":{"freighterSmall":1},
+	},
+	"tankerSmall":{
+	},
+	
+	"utility":{
+	},
+}
